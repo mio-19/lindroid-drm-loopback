@@ -8,7 +8,6 @@
 
 config DRM_LINDROID_EVDI
 	tristate "Extensible Virtual Display Interface"
-	depends on DRM
 	depends on MODULES
 	select DRM_KMS_HELPER
 	help
