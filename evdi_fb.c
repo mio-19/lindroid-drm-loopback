@@ -101,8 +101,6 @@ static int evdi_user_framebuffer_dirty(
 		__always_unused struct drm_clip_rect *clips,
 		__always_unused unsigned int num_clips)
 {
-	struct evdi_framebuffer *efb = to_evdi_fb(fb);
-
 	struct drm_modeset_acquire_ctx ctx;
 	struct drm_atomic_state *state;
 	struct drm_plane *plane;
